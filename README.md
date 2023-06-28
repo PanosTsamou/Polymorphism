@@ -27,8 +27,7 @@ What do we mean by 'composition' in reference to object-oriented programming?
 When would you use composition? Provide a simple example in Java.
 
 	When complex object need  simple objects to be created like the example
-
-<
+'''
 class Book{
    public void openBook(){
        System.out.println("The book is opened!");
@@ -45,7 +44,8 @@ class Student{
        book.openBook();
        System.out.println("I am reading from book");
    }
-}>
+}
+'''
 
 Give a difference between composition and aggregation?
 
